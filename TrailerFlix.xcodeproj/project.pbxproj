@@ -13,6 +13,9 @@
 		DD1C9DD5251AAE7500B2E0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9DD3251AAE7500B2E0AD /* Main.storyboard */; };
 		DD1C9DD7251AAE7800B2E0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9DD6251AAE7800B2E0AD /* Assets.xcassets */; };
 		DD1C9DDA251AAE7800B2E0AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9DD8251AAE7800B2E0AD /* LaunchScreen.storyboard */; };
+		DD1C9DE7251AAEFD00B2E0AD /* trailers.json in Resources */ = {isa = PBXBuildFile; fileRef = DD1C9DE3251AAEF300B2E0AD /* trailers.json */; };
+		DD1C9DEA251AB48200B2E0AD /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9DE9251AB48200B2E0AD /* TrailerViewController.swift */; };
+		DD1C9DED251AB5EB00B2E0AD /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1C9DEC251AB5EB00B2E0AD /* Trailer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DD1C9DD6251AAE7800B2E0AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD1C9DD9251AAE7800B2E0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD1C9DDB251AAE7800B2E0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD1C9DE3251AAEF300B2E0AD /* trailers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = trailers.json; path = "../../recursos/Arquivos TrailerFlix/trailers.json"; sourceTree = "<group>"; };
+		DD1C9DE9251AB48200B2E0AD /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
+		DD1C9DEC251AB5EB00B2E0AD /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 			children = (
 				DD1C9DCD251AAE7500B2E0AD /* AppDelegate.swift */,
 				DD1C9DCF251AAE7500B2E0AD /* SceneDelegate.swift */,
-				DD1C9DD1251AAE7500B2E0AD /* ViewController.swift */,
 				DD1C9DD3251AAE7500B2E0AD /* Main.storyboard */,
+				DD1C9DEC251AB5EB00B2E0AD /* Trailer.swift */,
+				DD1C9DD1251AAE7500B2E0AD /* ViewController.swift */,
+				DD1C9DE9251AB48200B2E0AD /* TrailerViewController.swift */,
+				DD1C9DE3251AAEF300B2E0AD /* trailers.json */,
 				DD1C9DD6251AAE7800B2E0AD /* Assets.xcassets */,
 				DD1C9DD8251AAE7800B2E0AD /* LaunchScreen.storyboard */,
 				DD1C9DDB251AAE7800B2E0AD /* Info.plist */,
@@ -127,6 +136,7 @@
 				DD1C9DDA251AAE7800B2E0AD /* LaunchScreen.storyboard in Resources */,
 				DD1C9DD7251AAE7800B2E0AD /* Assets.xcassets in Resources */,
 				DD1C9DD5251AAE7500B2E0AD /* Main.storyboard in Resources */,
+				DD1C9DE7251AAEFD00B2E0AD /* trailers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1C9DEA251AB48200B2E0AD /* TrailerViewController.swift in Sources */,
+				DD1C9DED251AB5EB00B2E0AD /* Trailer.swift in Sources */,
 				DD1C9DD2251AAE7500B2E0AD /* ViewController.swift in Sources */,
 				DD1C9DCE251AAE7500B2E0AD /* AppDelegate.swift in Sources */,
 				DD1C9DD0251AAE7500B2E0AD /* SceneDelegate.swift in Sources */,
@@ -295,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.TrailerFlix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.TrailerFlix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
